@@ -18,6 +18,11 @@
             "dest": "index.js"
         },
         {
+            "src": "/allBlogs",
+            "methods": ["GET"],
+            "dest": "index.js"
+        },
+        {
             "src": "/(.*)",
             "dest": "index.js"
         }

@@ -20,4 +20,8 @@ app.post("/post", async (req, res) => {
     res.json(req.body);
 });
 
+app.get("/allBlogs", async (req, res) => {
+    res.json(await Blog.find());
+});
+
 app.listen(4000);
