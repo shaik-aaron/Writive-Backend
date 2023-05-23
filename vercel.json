@@ -10,12 +10,16 @@
         {
             "src": "/post",
             "methods": ["POST"],
-            "dest": "/index.js"
+            "dest": "index.js"
         },
         {
             "src": "/",
             "methods": ["GET"],
-            "dest": "/index.js"
+            "dest": "index.js"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "index.js"
         }
     ]
 }
